@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="thrust-engine-demo-test"
+    errors="0" failures="1" hostname="" id="" package="thrust-engine-demo-test" skipped="3"
+    tests="4" time="105.1" timestamp="Mon, 25 Sep 2017 21:32:12 GMT">
+  
+    <testcase name="Phaser Game Boots Test" classname="thrust-engine-demo-test" time="105.1" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be visible for 100000 milliseconds.">    at Object.Phaser Game Boots Test (/Users/elizabethchan/Desktop/Makers Academy/jsgamePhaser/tests/thrust-engine-demo-test.js:25:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Phaser Game Loads Test" classname="thrust-engine-demo-test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="E2E Actors are avaialable to test" classname="thrust-engine-demo-test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Demo Player Control from Tests" classname="thrust-engine-demo-test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

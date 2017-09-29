@@ -1,0 +1,185 @@
+12:26:42.546 INFO - Selenium build info: version: '3.5.3', revision: 'a88d25fe6b'
+12:26:42.546 INFO - Launching a standalone Selenium Server
+2017-09-29 12:26:42.587:INFO::main: Logging initialized @372ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:26:42.653 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:26:42.683 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+12:26:42.683 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+12:26:42.729 INFO - Using the passthrough mode handler
+2017-09-29 12:26:42.760:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-09-29 12:26:42.794:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@23348b5d{/,null,STARTING} has uncovered http methods for path: /
+2017-09-29 12:26:42.800:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@23348b5d{/,null,AVAILABLE}
+2017-09-29 12:26:42.822:INFO:osjs.AbstractConnector:main: Started ServerConnector@1fb700ee{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-09-29 12:26:42.823:INFO:osjs.Server:main: Started @608ms
+12:26:42.823 INFO - Selenium Server is up and running
+2017-09-29 12:26:43.087:INFO:osjshC.ROOT:qtp599491651-12: org.openqa.selenium.remote.server.WebDriverServlet-7d8995e: Initialising WebDriverServlet
+12:26:43.127 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+12:26:43.129 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@6df31278
+12:26:43.133 INFO - /session: Executing POST on /session (handler: BeginSession)
+12:26:43.176 INFO - Capabilities are: Capabilities {acceptSslCerts=true, name=Thrust Engine Demo Test, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, platformName=ANY, platform=ANY, unexpectedAlertBehaviour=accept, }
+12:26:43.178 INFO - Capabilities {acceptSslCerts=true, name=Thrust Engine Demo Test, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, platformName=ANY, platform=ANY, unexpectedAlertBehaviour=accept, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+12:26:43.178 INFO - Capabilities {acceptSslCerts=true, name=Thrust Engine Demo Test, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, platformName=ANY, platform=ANY, unexpectedAlertBehaviour=accept, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 2047
+Only local connections are allowed.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.sf.cglib.core.ReflectUtils$1 (file:/Users/elizabethchan/Desktop/Makers%20Academy/jsgamePhaser/bin/selenium-server-standalone-3.5.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of net.sf.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+12:26:44.443 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:44.445 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/window/current/size (handler: ServicedSession)
+12:26:44.448 INFO - To upstream: {"width":800,"height":600}
+12:26:44.569 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:26:44.574 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:44.575 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/url (handler: ServicedSession)
+12:26:44.579 INFO - To upstream: {"url":"http://thrust-platform.herokuapp.com/min"}
+12:26:45.161 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:26:45.166 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.166 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/elements (handler: ServicedSession)
+12:26:45.167 INFO - To upstream: {"using":"css selector","value":"body"}
+12:26:45.251 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":[{"ELEMENT":"0.6767985957469163-1"}]}
+12:26:45.255 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.255 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing GET on /session/6989f00f03a4b40d43502889405c3552/element/0.6767985957469163-1/displayed (handler: ServicedSession)
+12:26:45.274 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:45.299 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.299 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:45.301 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      return window.Phaser && typeof window.Phaser === 'object';\n    }.apply(window, passedArgs);","args":[]}
+12:26:45.335 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:45.340 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.341 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:45.344 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      return window.Phaser.GAMES && window.Phaser.GAMES.length > 0;\n    }.apply(window, passedArgs);","args":[]}
+12:26:45.355 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:45.366 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.367 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:45.368 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["boot"]}
+12:26:45.373 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:45.388 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.388 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:45.389 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (expected, callback) {\n      return window.Phaser.GAMES[0].state.current;\n    }.apply(window, passedArgs);","args":["boot"]}
+12:26:45.403 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":"boot"}
+12:26:45.415 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.415 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:45.416 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      return typeof window.Phaser.GAMES[0].e2e !== 'undefined';\n    }.apply(window, passedArgs);","args":[]}
+12:26:45.421 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:45.425 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.432 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:45.437 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n    // execute application specific code\n      var game = window.Phaser.GAMES[0];\n      console.log('game', game);\n      game.e2e.controlOverride = true;\n      console.log('controlOverride', game.e2e);\n      game.e2e.boot.startLoad();\n      console.log('boot :: starLoad');\n      return true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:45.465 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:45.475 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:45.475 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:45.478 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:45.535 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:46.040 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:46.041 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:46.042 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:46.050 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:46.556 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:46.556 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:46.557 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:46.668 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:47.178 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:47.179 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:47.180 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:47.183 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:47.690 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:47.690 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:47.691 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:47.697 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:48.204 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:48.204 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:48.208 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:48.217 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:48.721 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:48.722 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:48.723 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:48.730 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:49.237 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:49.237 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:49.239 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (desiredState) {\n      return typeof window.Phaser.GAMES[0].state.current === 'string' && window.Phaser.GAMES[0].state.current.toString() === desiredState;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:49.251 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:49.254 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:49.254 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:49.255 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (expected, callback) {\n      return window.Phaser.GAMES[0].state.current;\n    }.apply(window, passedArgs);","args":["play"]}
+12:26:49.267 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":"play"}
+12:26:49.271 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:49.272 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/keys (handler: ServicedSession)
+12:26:49.273 INFO - To upstream: {"value":["\ue00d"]}
+12:26:49.369 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:26:49.374 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:49.374 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:49.375 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:49.388 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:49.901 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:49.901 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:49.902 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:49.906 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:50.415 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:50.415 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:50.417 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:50.421 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:50.931 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:50.932 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:50.933 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:50.937 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:51.449 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:51.450 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:51.451 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:51.455 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:51.967 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:51.967 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:51.968 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:51.972 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:52.481 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:52.481 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:52.484 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:52.489 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:52.997 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:52.997 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:52.999 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:53.004 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:53.512 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:53.512 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:53.515 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:53.520 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:54.028 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:54.028 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:54.030 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:54.036 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:54.542 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:54.542 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:54.543 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:54.547 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:55.052 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:55.052 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:55.054 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:55.060 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":false}
+12:26:55.569 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:55.569 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute (handler: ServicedSession)
+12:26:55.570 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function () {\n      var currentState = window.Phaser.GAMES[0].state.current;\n      var playState = window.Phaser.GAMES[0].state.states[currentState];\n      return playState.inPlay === true;\n    }.apply(window, passedArgs);","args":[]}
+12:26:55.574 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":true}
+12:26:56.188 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:56.188 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute_async (handler: ServicedSession)
+12:26:56.189 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (speed, ms, done) {\n    var fps = window.Phaser.GAMES[0].time.fps;\n    var e2e = window.Phaser.GAMES[0].e2e;\n    var player = e2e.player;\n\n    frameInterval = setInterval(function() {\n      player.body.thrust(speed);\n    }, 1000 / fps);\n\n    setTimeout(function() {\n      //player.body.setZeroRotation();\n      clearInterval(frameInterval);\n      done();\n    }, ms)\n\n  }.apply(window, passedArgs);","args":[200,300]}
+12:26:56.508 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:26:57.719 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:57.720 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute_async (handler: ServicedSession)
+12:26:57.721 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (speed, ms, done) {\n    var e2e = window.Phaser.GAMES[0].e2e;\n    var player = e2e.player;\n    player.rotate(speed);\n\n    setTimeout(function() {\n      player.body.setZeroRotation();\n      done();\n    }, ms)\n\n  }.apply(window, passedArgs);","args":[100,100]}
+12:26:57.836 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:26:59.342 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:26:59.342 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute_async (handler: ServicedSession)
+12:26:59.344 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (speed, ms, done) {\n    var fps = window.Phaser.GAMES[0].time.fps;\n    var e2e = window.Phaser.GAMES[0].e2e;\n    var player = e2e.player;\n\n    frameInterval = setInterval(function() {\n      player.body.thrust(speed);\n    }, 1000 / fps);\n\n    setTimeout(function() {\n      //player.body.setZeroRotation();\n      clearInterval(frameInterval);\n      done();\n    }, ms)\n\n  }.apply(window, passedArgs);","args":[300,500]}
+12:26:59.875 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:27:00.385 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:27:00.386 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute_async (handler: ServicedSession)
+12:27:00.388 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (speed, ms, done) {\n    var e2e = window.Phaser.GAMES[0].e2e;\n    var player = e2e.player;\n    player.rotate(speed);\n\n    setTimeout(function() {\n      player.body.setZeroRotation();\n      done();\n    }, ms)\n\n  }.apply(window, passedArgs);","args":[100,200]}
+12:27:00.605 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:27:01.114 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:27:01.115 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing POST on /session/6989f00f03a4b40d43502889405c3552/execute_async (handler: ServicedSession)
+12:27:01.119 INFO - To upstream: {"script":"var passedArgs = Array.prototype.slice.call(arguments,0); return function (speed, ms, done) {\n    var fps = window.Phaser.GAMES[0].time.fps;\n    var e2e = window.Phaser.GAMES[0].e2e;\n    var player = e2e.player;\n\n    frameInterval = setInterval(function() {\n      player.body.thrust(speed);\n    }, 1000 / fps);\n\n    setTimeout(function() {\n      //player.body.setZeroRotation();\n      clearInterval(frameInterval);\n      done();\n    }, ms)\n\n  }.apply(window, passedArgs);","args":[100,200]}
+12:27:01.338 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:27:04.345 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:27:04.346 INFO - Handler thread for session 6989f00f03a4b40d43502889405c3552 (chrome): Executing DELETE on /session/6989f00f03a4b40d43502889405c3552 (handler: ServicedSession)
+12:27:04.399 INFO - To downstream: {"sessionId":"6989f00f03a4b40d43502889405c3552","status":0,"value":null}
+12:27:04.405 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@643517d8
+12:27:04.411 INFO - To downstream: {"sessionId":"","status":0,"value":null}
